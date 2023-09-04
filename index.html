@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Webfit</title>
+  <link rel='stylesheet' href='./style.css'>
+  <link rel='shortcut icon' href='img/Logo.ico' type='image/x-icon'>
+</head>
+
+<body>
+  <header class='main-header container'>
+    <img src='img/Logo.png' width='175' height='144' class='item-slide'>
+    <h1 class='title'>LA SALUD EN LA WEB </h1>
+  </header>
+  <nav class='main-nav container'>
+    <ul class='menu' id='menu'>
+      <li class='menu__item'><a href='#inicio' class='menu__link'>Inicio</a></li>
+      <li class='menu__item'><a href='#quienes-somos' class='menu__link'>¿Quienes somos?</a></li>
+      <li class='menu__item'><a href='#conocenos' class='menu__link'>Conocenos</a></li>
+      <li class='menu__item'><a href='#mision' class='menu__link'>Mision</a></li>
+      <li class='menu__item'><a href='#vision' class='menu__link'>Vision</a></li>
+      <li class='menu__item'><a href='#redes-sociales' class='menu__link'>Redes sociales</a></li>
+      <li class='menu__item'>
+        <a href='#' class='menu__link videos-menu'>Videos</a>
+        <ul class='dropdown'>
+          <li><a href='#' target='_blank'>Video 1</a></li>
+          <li><a href='#' target='_blank'>Video 2</a></li>
+          <li><a href='#' target='_blank'>Video 3</a></li>
+          <li><a href='#' target='_blank'>Video 4</a></li>
+          <li><a href='#' target='_blank'>Video 5</a></li>
+        </ul>
+      </li>
+    </ul>
+    <span class='icon-menu' id='btnmenu'>Menu</span>
+  </nav>
+  <div class='center'>
+    <div class='container-all' id='inicio'>
+
+      <input type='radio' id='1' name='image-slide' hidden />
+      <input type='radio' id='2' name='image-slide' hidden />
+      <input type='radio' id='3' name='image-slide' hidden />
+
+      <div class='slide'>
+        <img class='item-slide' src='img/img1.jpeg' width='1600' height='901'>
+        <img class='item-slide' src='img/img2.jpeg' width='1600' height='901'>
+        <img class='item-slide' src='img/img3.jpeg' width='1600' height='901'>
+      </div>
+
+      <div class='pagination'>
+        <label class='pagination-item' for='1'><img src='img/img1.jpg'></label>
+        <label class='pagination-item' for='2'><img src='img/img2.jpeg'></label>
+        <label class='pagination-item' for='3'><img src='img/img3.jpeg'></label>
+      </div>
+
+    </div>
+  </div>
+
+  <main class='main'>
+    <section class='container container-article'>
+      <article class='article'>
+        <h3 class='article__title' id='mision'>Misión</h3>
+        <p class='article__txt'>Ofrecer información sobre salud fisica, a traves de una pagina web que contiene videos,
+          tutoriales y tips para los jovenes del colegio venecia entre 15 y 17 años. para disminuir el sedentarismo.</p>
+        <img src='img/1.png' width='450' height='450'>
+      </article>
+
+      <article class='article'>
+        <h3 class='article__title' id='vision'>Vision</h3>
+        <p class='article__txt'>Ser la pagina web mas utilizada por las instituciones educativas distritales.</p>
+        <img src='img/2.png' width='450' height='450'>
+      </article>
+
+      <article class='article'>
+        <h3 class='article__title' id='quienes-somos'>¿Quienes somos?</h3>
+        <p class='article__txt'>Somos unos estudiantes de grado undécimo, con un proyecto sobre la salud física,
+          ejercicio recreativo y una alimentación óptima.</p>
+        <img src='img/3.png' width='450' height='450'></p>
+      </article>
+    </section>
+
+    <section class='container container-article'>
+      <article class='article'>
+        <h3 class='article__title' id='conocenos'>Conocenos</h3>
+        <p class='article__txt'>Nuestros nombres son Gerson y Samuel y realizamos esta pagina para ayudar a los demas
+          estudiantes del colegio con problemas relacionados con la salud fisica, nos encanta todo lo relacionado con la
+          actividad fisica y por esto practivamos diferentes deportes queriendo compartir esa pasion por el deporte y la
+          buena alimentación.</p>
+      </article>
+
+      <article class='article'>
+        <h3 class='article__title' id='redes-sociales'>Redes sociales</h3>
+        <p class='article__txt'>Contamos con dos redes sociales como apoyo para poder llegar a mas estudiantes del
+          colegio venecia con maneras mas intereactivas y divertidas.</p>
+        <div class='network-container'>
+          <a href='https://instagram.com/webfit_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==' target='_blank'><img class='social-network' src='/img/instagram.svg'></a>
+          <a href='https://www.tiktok.com/@webfit_?_t=8fIpLYZLalC&_r=1' target='_blank'><img class='social-network' src='/img/tiktok.svg'></a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src='./script.js'></script>
+  © WEBFIT 2023
+</body>
+
+</html>
